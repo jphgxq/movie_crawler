@@ -1,0 +1,24 @@
+豆瓣电影评论数据库表：
+id		记录的序号
+reviewer	评论用户
+rank		推荐等级
+stars		推荐星级（与rank对应）
+time		评论时间
+useful		认为有用投票数
+useless		认为没用投票数
+total		总投票数
+reply		回复人数
+url		评论文章内容链接
+
+
+豆瓣电影短评数据库表：
+id		记录的序号
+srid		短评id号
+reviewer	评论用户
+rank		推荐等级
+stars		推荐星级（与rank对应）
+date		评论时间
+vote		赞同短评的投票数
+comment		短评内容
+
+以上均为字符串类型
